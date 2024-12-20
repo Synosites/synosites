@@ -4,7 +4,7 @@ import { ValuesSection } from "@/components/about/values-section";
 
 export default function AboutPage() {
   return (
-    <div className="container">
+    <div className="">
       <AboutHero />
       <ValuesSection />
       <TeamSection />

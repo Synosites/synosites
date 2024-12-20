@@ -3,7 +3,7 @@ import { ProjectsList } from "@/components/projects/projects-list";
 
 export default function ProjectsPage() {
   return (
-    <div className="container py-8">
+    <div className=" py-8">
       <ProjectsHeader />
       <ProjectsList />
     </div>

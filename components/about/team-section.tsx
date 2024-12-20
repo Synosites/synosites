@@ -3,27 +3,34 @@ import { Card } from "@/components/ui/card";
 
 const team = [
   {
-    name: "Alex Johnson",
+    name: "Adil Abdulkerim",
     role: "Founder & CEO",
-    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&q=80",
+    image: "",
   },
   {
-    name: "Sarah Chen",
+    name: "Rufan Niyazli",
     role: "Lead Developer",
-    image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&q=80",
+    image: "",
   },
   {
-    name: "Michael Brown",
-    role: "Design Director",
-    image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&q=80",
+    name: "Kenan Ibrahimov",
+    role: "Design Director & Business Manager",
+    image: "",
+  },
+  {
+    name: "Beyler ",
+    role: "Backend Developer & Syber Secure",
+    image: "",
   },
 ];
 
 export function TeamSection() {
   return (
     <section className="py-12 md:py-16">
-      <h2 className="mb-8 text-2xl font-bold md:text-3xl">Our Team</h2>
-      <div className="grid gap-8 md:grid-cols-3">
+      <h2 className="mb-8 text-2xl font-bold text-center md:text-3xl">
+        Our Team
+      </h2>
+      <div className="mx-auto grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-2 sm:px-4 lg:px-8">
         {team.map((member) => (
           <Card key={member.name} className="p-6 text-center">
             <Avatar className="mx-auto mb-4 h-24 w-24">
