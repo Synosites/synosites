@@ -6,10 +6,10 @@ export function AboutHero() {
       <div className="flex flex-col items-start gap-4">
         <Badge variant="secondary">About Us</Badge>
         <h1 className="text-3xl font-bold leading-tight tracking-tighter md:text-5xl lg:text-6xl lg:leading-[1.1]">
-          Building the future of web development
+          Siz xəyal edin biz reallığa çevirək!
         </h1>
         <p className="max-w-[750px] text-lg text-muted-foreground sm:text-xl">
-          Syno Sites is a forward-thinking web development agency dedicated to creating exceptional digital experiences. We combine creativity with technical expertise to deliver solutions that make an impact.
+          Syno Sites qeyri-adi rəqəmsal təcrübələr yaratmağa həsr olunmuş irəli düşünən veb inkişaf agentliyidir. Biz təsir yaradan həllər təqdim etmək üçün yaradıcılığı texniki təcrübə ilə birləşdiririk.
         </p>
       </div>
     </section>
